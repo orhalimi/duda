@@ -1,0 +1,32 @@
+.review-card {
+  display: flex;
+}
+
+.review-card .avatar {
+  margin-right: 15px;
+}
+
+.review-card .avatar img {
+  max-width: 96px;
+}
+
+.review-card .review-card-content {
+  width: 100%;
+  font-size: 20px;
+}
+
+.review-card .review-card-content .review-card-title {
+  font-weight: bolder;
+}
+
+.review-card .review-card-actions {
+  display: flex;
+  height: fit-content;
+}
+
+.review-card .review-card-actions img {
+  width: 20px;
+  height: 20px;
+  padding-right: 6px;
+  cursor: pointer;
+}
